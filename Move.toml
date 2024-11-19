@@ -4,7 +4,7 @@ version = "0.0.1"
 published-at = "0x9a13b57b5541ec0aa94d973420f8fb3737029a23da4752ad3d565bd0f639a643"
 
 [dependencies]
-Sui = { git = "https://github.com/MystenLabs/sui.git", subdir="crates/sui-framework/packages/sui-framework/", rev = "testnet" }
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir="crates/sui-framework/packages/sui-framework/", rev = "framework/testnet" }
 
 [addresses]
 coin_sample = "0x9a13b57b5541ec0aa94d973420f8fb3737029a23da4752ad3d565bd0f639a643"
